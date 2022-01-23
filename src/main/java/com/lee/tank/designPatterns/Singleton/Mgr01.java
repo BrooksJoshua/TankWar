@@ -12,6 +12,6 @@ public class Mgr01 {
     public static void main(String[] args) {
         Mgr01 m1 = Mgr01.getInstance();
         Mgr01 m2 = Mgr01.getInstance();
-        System.out.println(m1 == m2); //true
+        System.out.println(m1 == m2); //true;
     }
 }
